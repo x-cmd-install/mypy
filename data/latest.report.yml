@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-10T16:36:22Z
+  collectedAt: 2026-09-10T21:04:23Z
 timeline:
   created: 2012-12-07
   lastCommit: 2026-09-09
@@ -15,12 +15,12 @@ timeline:
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 20637
+  star: 20638
   watcher: 234
-  fork: 3295
+  fork: 3296
   release: 0
   contributor: 813
-  pullRequest: 9673
+  pullRequest: 9676
   issue: 12155
 language:
   Python: 7113184
@@ -40,7 +40,7 @@ recent:
     since: 2026-08-11
     release: 0
     mergedPR: 37
-    openPR: 48
+    openPR: 50
     closedIssue: 10
     openIssue: 29
     commit: 41
@@ -48,7 +48,7 @@ recent:
     since: 2026-07-12
     release: 0
     mergedPR: 61
-    openPR: 72
+    openPR: 74
     closedIssue: 23
     openIssue: 50
     commit: 72
@@ -56,7 +56,7 @@ recent:
     since: 2026-06-12
     release: 0
     mergedPR: 114
-    openPR: 80
+    openPR: 82
     closedIssue: 36
     openIssue: 70
     commit: 132
@@ -64,7 +64,7 @@ recent:
     since: 2026-03-14
     release: 0
     mergedPR: 381
-    openPR: 113
+    openPR: 115
     closedIssue: 125
     openIssue: 159
     commit: 437
@@ -72,7 +72,7 @@ recent:
     since: 2025-09-15
     release: 0
     mergedPR: 876
-    openPR: 244
+    openPR: 246
     closedIssue: 368
     openIssue: 335
     commit: 1009
@@ -80,20 +80,20 @@ recent:
     since: 2024-09-20
     release: 0
     mergedPR: 1773
-    openPR: 350
+    openPR: 352
     closedIssue: 933
     openIssue: 685
     commit: 1800
 total:
   release: 0
   mergedPR: 7911
-  openPR: 496
+  openPR: 498
   closedIssue: 9419
   openIssue: 2736
   commit: 13781
 ---
 path: /home/runner/.x-repo/github.com/python/mypy
-collectedAt: 2026-09-10T16:36:45Z
+collectedAt: 2026-09-10T21:04:40Z
 loc:
   Python:
     code: 145908
