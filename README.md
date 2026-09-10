@@ -20,19 +20,19 @@ x install mypy
 
 ## Popularity
 
-- **Stars**: 20,636 · **Forks**: 3,295 · **Open issues**: 12,154 · **Contributors**: 813
+- **Stars**: 20,637 · **Forks**: 3,295 · **Open issues**: 12,155 · **Contributors**: 813
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 7911 · **Open PRs**: 496 · **Closed issues**: 9419 · **Open issues**: 2735 · **Commits**: 13781
+- **Releases**: 0 · **Merged PRs**: 7911 · **Open PRs**: 496 · **Closed issues**: 9419 · **Open issues**: 2736 · **Commits**: 13781
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 37 | 48 | 10 | 28 | 41 |
-| 90d | 2026-06-12 | 0 | 114 | 80 | 36 | 69 | 132 |
-| 360d | 2025-09-15 | 0 | 876 | 244 | 368 | 334 | 1009 |
+| 30d | 2026-08-11 | 0 | 37 | 48 | 10 | 29 | 41 |
+| 90d | 2026-06-12 | 0 | 114 | 80 | 36 | 70 | 132 |
+| 360d | 2025-09-15 | 0 | 876 | 244 | 368 | 335 | 1009 |
 
 ## Code size
 
@@ -61,8 +61,8 @@ Lowest-scoring checks:
 Install metadata for mypy lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `mypy` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/mypy.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/mypy.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T05:06:34Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:36:53Z._
