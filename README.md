@@ -46,18 +46,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 7912 · **Open PRs**: 499 · **Closed issues**: 9420 · **Open issues**: 2738 · **Commits**: 13782
+- **Releases**: 0 · **Merged PRs**: 7912 · **Open PRs**: 500 · **Closed issues**: 9420 · **Open issues**: 2738 · **Commits**: 13782
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-13 | 0 | 36 | 41 | 9 | 29 | 42 |
-| last60d | 2026-07-14 | 0 | 59 | 73 | 23 | 51 | 73 |
-| 90d | 2026-06-14 | 0 | 115 | 81 | 36 | 73 | 133 |
-| last180d | 2026-03-16 | 0 | 376 | 116 | 125 | 160 | 438 |
-| 360d | 2025-09-17 | 0 | 872 | 239 | 366 | 335 | 1010 |
-| last720d | 2024-09-22 | 0 | 1773 | 352 | 931 | 685 | 1797 |
+| 30d | 2026-08-14 | 0 | 36 | 42 | 9 | 29 | 30 |
+| last60d | 2026-07-15 | 0 | 58 | 74 | 22 | 50 | 65 |
+| 90d | 2026-06-15 | 0 | 110 | 82 | 34 | 73 | 124 |
+| last180d | 2026-03-17 | 0 | 374 | 117 | 122 | 160 | 416 |
+| 360d | 2025-09-18 | 0 | 870 | 235 | 366 | 334 | 1003 |
+| last720d | 2024-09-23 | 0 | 1772 | 353 | 930 | 684 | 1797 |
 
 ## Distribution status
 
@@ -87,4 +87,4 @@ Install metadata for mypy lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260912.yml` · 2026-09-12T04:53:09Z._
+_Snapshot: `data/card/260913.yml` · 2026-09-13T05:05:34Z._
