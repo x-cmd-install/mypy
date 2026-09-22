@@ -14,11 +14,11 @@ x install mypy
 
 ## Code insight
 
-Total: **192,470** lines of code across **645** files in the top 5 languages.
+Total: **192,575** lines of code across **645** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 147,508 | 15,021 | 22,055 | 446 |
+| Python | 147,613 | 15,027 | 22,061 | 446 |
 | C | 15,914 | 2,175 | 2,017 | 90 |
 | ReStructuredText | 13,853 | 0 | 6,063 | 63 |
 | CHeader | 7,449 | 1,187 | 1,209 | 35 |
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 20,647 · **Forks**: 3,308 · **Open issues**: 12,165 · **Contributors**: 816
+- **Stars**: 20,646 · **Forks**: 3,308 · **Open issues**: 12,166 · **Contributors**: 816
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 7941 · **Open PRs**: 505 · **Closed issues**: 9437 · **Open issues**: 2728 · **Commits**: 13811
+- **Releases**: 0 · **Merged PRs**: 7944 · **Open PRs**: 504 · **Closed issues**: 9439 · **Open issues**: 2727 · **Commits**: 13814
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-22 | 0 | 53 | 38 | 9 | 27 | 57 |
-| last60d | 2026-07-23 | 0 | 80 | 77 | 22 | 44 | 95 |
-| 90d | 2026-06-23 | 0 | 130 | 87 | 34 | 72 | 152 |
-| last180d | 2026-03-25 | 0 | 387 | 120 | 127 | 148 | 440 |
-| 360d | 2025-09-26 | 0 | 883 | 236 | 366 | 315 | 1022 |
-| last720d | 2024-10-01 | 0 | 1784 | 357 | 928 | 669 | 1808 |
+| 30d | 2026-08-23 | 0 | 56 | 38 | 10 | 27 | 60 |
+| last60d | 2026-07-24 | 0 | 81 | 76 | 23 | 44 | 98 |
+| 90d | 2026-06-24 | 0 | 133 | 85 | 34 | 69 | 155 |
+| last180d | 2026-03-26 | 0 | 390 | 119 | 129 | 147 | 443 |
+| 360d | 2025-09-27 | 0 | 884 | 232 | 367 | 313 | 1025 |
+| last720d | 2024-10-02 | 0 | 1782 | 356 | 928 | 667 | 1810 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for mypy lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260921.yml` · 2026-09-21T05:17:37Z._
+_Snapshot: `data/card/260922.yml` · 2026-09-22T05:14:26Z._
