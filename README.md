@@ -14,7 +14,7 @@ x install mypy
 
 ## Code insight
 
-Total: **193,092** lines of code across **645** files in the top 5 languages.
+Total: **193,093** lines of code across **645** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 20,657 · **Forks**: 3,322 · **Open issues**: 12,178 · **Contributors**: 819
+- **Stars**: 20,661 · **Forks**: 3,323 · **Open issues**: 12,178 · **Contributors**: 819
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 7979 · **Open PRs**: 522 · **Closed issues**: 9460 · **Open issues**: 2718 · **Commits**: 13848
+- **Releases**: 0 · **Merged PRs**: 7981 · **Open PRs**: 523 · **Closed issues**: 9461 · **Open issues**: 2717 · **Commits**: 13850
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-03 | 0 | 72 | 40 | 16 | 15 | 91 |
-| last60d | 2026-08-04 | 0 | 111 | 84 | 26 | 40 | 130 |
-| 90d | 2026-07-05 | 0 | 153 | 103 | 44 | 65 | 186 |
-| last180d | 2026-04-06 | 0 | 394 | 127 | 124 | 138 | 460 |
-| 360d | 2025-10-08 | 0 | 889 | 229 | 360 | 303 | 1027 |
-| last720d | 2024-10-13 | 0 | 1782 | 372 | 935 | 648 | 1812 |
+| 30d | 2026-09-04 | 0 | 73 | 44 | 17 | 11 | 79 |
+| last60d | 2026-08-05 | 0 | 111 | 86 | 27 | 38 | 122 |
+| 90d | 2026-07-06 | 0 | 147 | 104 | 44 | 63 | 155 |
+| last180d | 2026-04-07 | 0 | 392 | 129 | 123 | 137 | 433 |
+| 360d | 2025-10-09 | 0 | 886 | 228 | 359 | 302 | 1008 |
+| last720d | 2024-10-14 | 0 | 1776 | 373 | 934 | 644 | 1814 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for mypy lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261003.yml` · 2026-10-03T05:28:51Z._
+_Snapshot: `data/card/261004.yml` · 2026-10-04T06:05:56Z._
