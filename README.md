@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 20,673 · **Forks**: 3,330 · **Open issues**: 12,191 · **Contributors**: 820
+- **Stars**: 20,674 · **Forks**: 3,332 · **Open issues**: 12,195 · **Contributors**: 821
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 8014 · **Open PRs**: 531 · **Closed issues**: 9477 · **Open issues**: 2714 · **Commits**: 13883
+- **Releases**: 0 · **Merged PRs**: 8015 · **Open PRs**: 534 · **Closed issues**: 9477 · **Open issues**: 2718 · **Commits**: 13884
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-10 | 0 | 95 | 50 | 19 | 16 | 111 |
-| last60d | 2026-08-11 | 0 | 135 | 88 | 32 | 42 | 154 |
-| 90d | 2026-07-12 | 0 | 162 | 109 | 49 | 59 | 187 |
-| last180d | 2026-04-13 | 0 | 411 | 137 | 126 | 140 | 465 |
-| 360d | 2025-10-15 | 0 | 905 | 233 | 365 | 295 | 1040 |
-| last720d | 2024-10-20 | 0 | 1780 | 381 | 935 | 633 | 1805 |
+| 30d | 2026-09-11 | 0 | 96 | 53 | 18 | 19 | 87 |
+| last60d | 2026-08-12 | 0 | 135 | 89 | 32 | 46 | 144 |
+| 90d | 2026-07-13 | 0 | 160 | 112 | 49 | 62 | 177 |
+| last180d | 2026-04-14 | 0 | 402 | 140 | 123 | 143 | 422 |
+| 360d | 2025-10-16 | 0 | 904 | 236 | 365 | 296 | 1024 |
+| last720d | 2024-10-21 | 0 | 1779 | 383 | 930 | 636 | 1805 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for mypy lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261010.yml` · 2026-10-10T05:58:04Z._
+_Snapshot: `data/card/261011.yml` · 2026-10-11T05:53:18Z._
