@@ -14,24 +14,24 @@ x install mypy
 
 ## Code insight
 
-Total: **193,799** lines of code across **645** files in the top 5 languages.
+Total: **194,064** lines of code across **645** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 148,645 | 15,231 | 22,165 | 446 |
-| C | 15,971 | 2,192 | 2,025 | 90 |
+| Python | 148,902 | 15,267 | 22,189 | 446 |
+| C | 15,978 | 2,193 | 2,026 | 90 |
 | ReStructuredText | 13,925 | 0 | 6,090 | 63 |
-| CHeader | 7,506 | 1,203 | 1,216 | 35 |
+| CHeader | 7,507 | 1,203 | 1,216 | 35 |
 | Cpp | 6,425 | 2,225 | 1,277 | 11 |
 
 ## OpenSSF Scorecard
 
-Overall score: **6.6 / 10**
+Overall score: **6.8 / 10**
 
 Lowest-scoring checks:
 
-- **Security-Policy** (4/10) — security policy file detected
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Security-Policy** (4/10) — security policy file detected
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## Source
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 20,679 · **Forks**: 3,333 · **Open issues**: 12,199 · **Contributors**: 821
+- **Stars**: 20,683 · **Forks**: 3,336 · **Open issues**: 12,201 · **Contributors**: 821
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 8023 · **Open PRs**: 535 · **Closed issues**: 9486 · **Open issues**: 2713 · **Commits**: 13892
+- **Releases**: 0 · **Merged PRs**: 8030 · **Open PRs**: 531 · **Closed issues**: 9487 · **Open issues**: 2714 · **Commits**: 13899
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 0 | 100 | 57 | 17 | 22 | 95 |
-| last60d | 2026-08-14 | 0 | 142 | 88 | 31 | 47 | 152 |
-| 90d | 2026-07-15 | 0 | 167 | 114 | 48 | 64 | 185 |
-| last180d | 2026-04-16 | 0 | 390 | 143 | 120 | 144 | 430 |
-| 360d | 2025-10-18 | 0 | 909 | 237 | 364 | 298 | 1032 |
-| last720d | 2024-10-23 | 0 | 1783 | 384 | 928 | 632 | 1809 |
+| 30d | 2026-09-14 | 0 | 100 | 56 | 17 | 24 | 102 |
+| last60d | 2026-08-15 | 0 | 146 | 86 | 31 | 48 | 159 |
+| 90d | 2026-07-16 | 0 | 171 | 113 | 46 | 66 | 192 |
+| last180d | 2026-04-17 | 0 | 395 | 139 | 118 | 146 | 437 |
+| 360d | 2025-10-19 | 0 | 915 | 233 | 365 | 299 | 1039 |
+| last720d | 2024-10-24 | 0 | 1784 | 380 | 924 | 631 | 1813 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for mypy lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T07:12:12Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T05:06:50Z._
