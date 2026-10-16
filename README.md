@@ -14,12 +14,12 @@ x install mypy
 
 ## Code insight
 
-Total: **194,351** lines of code across **646** files in the top 5 languages.
+Total: **194,459** lines of code across **646** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 149,183 | 15,289 | 22,238 | 447 |
-| C | 15,978 | 2,193 | 2,026 | 90 |
+| Python | 149,284 | 15,308 | 22,250 | 447 |
+| C | 15,985 | 2,196 | 2,027 | 90 |
 | ReStructuredText | 13,931 | 0 | 6,092 | 63 |
 | CHeader | 7,507 | 1,203 | 1,216 | 35 |
 | Cpp | 6,425 | 2,225 | 1,277 | 11 |
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 20,680 · **Forks**: 3,336 · **Open issues**: 12,202 · **Contributors**: 821
+- **Stars**: 20,684 · **Forks**: 3,334 · **Open issues**: 12,202 · **Contributors**: 821
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 8035 · **Open PRs**: 528 · **Closed issues**: 9490 · **Open issues**: 2712 · **Commits**: 13904
+- **Releases**: 0 · **Merged PRs**: 8042 · **Open PRs**: 527 · **Closed issues**: 9491 · **Open issues**: 2711 · **Commits**: 13911
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-15 | 0 | 97 | 56 | 16 | 25 | 108 |
-| last60d | 2026-08-16 | 0 | 150 | 85 | 30 | 49 | 165 |
-| 90d | 2026-07-17 | 0 | 174 | 113 | 45 | 66 | 198 |
-| last180d | 2026-04-18 | 0 | 398 | 139 | 117 | 147 | 443 |
-| 360d | 2025-10-20 | 0 | 919 | 230 | 363 | 299 | 1045 |
-| last720d | 2024-10-25 | 0 | 1782 | 378 | 922 | 631 | 1816 |
+| 30d | 2026-09-16 | 0 | 101 | 55 | 15 | 23 | 114 |
+| last60d | 2026-08-17 | 0 | 157 | 80 | 30 | 48 | 171 |
+| 90d | 2026-07-18 | 0 | 180 | 111 | 45 | 65 | 204 |
+| last180d | 2026-04-19 | 0 | 403 | 138 | 115 | 147 | 449 |
+| 360d | 2025-10-21 | 0 | 924 | 228 | 363 | 298 | 1051 |
+| last720d | 2024-10-26 | 0 | 1787 | 377 | 920 | 630 | 1812 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for mypy lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261015.yml` · 2026-10-15T04:45:33Z._
+_Snapshot: `data/card/261016.yml` · 2026-10-16T04:45:20Z._
