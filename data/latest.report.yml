@@ -2,28 +2,28 @@ about:
   description: "Optional static typing for Python"
   license: NOASSERTION
   homepage: https://www.mypy-lang.org/
-  head: 033f958
+  head: b3ab06a
   archived: false
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-10-29T05:58:43Z
+  collectedAt: 2026-10-30T06:03:28Z
 timeline:
   created: 2012-12-07
-  lastCommit: 2026-10-28
+  lastCommit: 2026-10-29
   lastVersion: 
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 20710
+  star: 20712
   watcher: 227
-  fork: 3358
+  fork: 3359
   release: 0
   contributor: 824
-  pullRequest: 9955
+  pullRequest: 9961
   issue: 12224
 language:
-  Python: 7334189
+  Python: 7334175
   C: 897507
   C++: 102383
   XSLT: 8510
@@ -34,69 +34,69 @@ language:
   Emacs Lisp: 771
   Makefile: 634
   Dockerfile: 235
-totalBytes: 8355803
+totalBytes: 8355789
 recent:
   last30d:
-    since: 2026-09-29
+    since: 2026-09-30
     release: 0
-    mergedPR: 116
-    openPR: 49
-    closedIssue: 15
+    mergedPR: 114
+    openPR: 54
+    closedIssue: 14
     openIssue: 38
-    commit: 107
+    commit: 108
   last60d:
-    since: 2026-08-30
+    since: 2026-08-31
     release: 0
-    mergedPR: 192
-    openPR: 82
-    closedIssue: 33
+    mergedPR: 193
+    openPR: 87
+    closedIssue: 32
     openIssue: 54
-    commit: 198
+    commit: 199
   last90d:
-    since: 2026-07-31
+    since: 2026-08-01
     release: 0
-    mergedPR: 223
-    openPR: 115
+    mergedPR: 224
+    openPR: 120
     closedIssue: 45
     openIssue: 74
-    commit: 238
+    commit: 239
   last180d:
-    since: 2026-05-02
+    since: 2026-05-03
     release: 0
-    mergedPR: 377
-    openPR: 140
-    closedIssue: 113
-    openIssue: 141
-    commit: 416
+    mergedPR: 378
+    openPR: 145
+    closedIssue: 112
+    openIssue: 139
+    commit: 417
   last360d:
-    since: 2025-11-03
+    since: 2025-11-04
     release: 0
-    mergedPR: 939
-    openPR: 225
-    closedIssue: 365
-    openIssue: 297
-    commit: 1051
+    mergedPR: 938
+    openPR: 228
+    closedIssue: 364
+    openIssue: 296
+    commit: 1052
   last720d:
-    since: 2024-11-08
+    since: 2024-11-09
     release: 0
     mergedPR: 1818
-    openPR: 378
-    closedIssue: 907
-    openIssue: 620
-    commit: 1837
+    openPR: 383
+    closedIssue: 904
+    openIssue: 619
+    commit: 1838
 total:
   release: 0
-  mergedPR: 8093
-  openPR: 534
+  mergedPR: 8094
+  openPR: 539
   closedIssue: 9517
   openIssue: 2707
-  commit: 13962
+  commit: 13963
 ---
 path: /home/runner/.x-repo/github.com/python/mypy
-collectedAt: 2026-10-29T05:58:55Z
+collectedAt: 2026-10-30T06:03:48Z
 loc:
   Python:
-    code: 150402
+    code: 150401
     comments: 15350
     blanks: 22327
     files: 447
@@ -191,7 +191,7 @@ loc:
     blanks: 26
     files: 8
 total:
-  code: 196188
+  code: 196187
   comments: 28469
   blanks: 35500
   files: 703
