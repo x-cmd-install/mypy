@@ -1,4 +1,4 @@
-- repo: raspbian_testing
+- repo: kali_rolling
   subrepo: main
   srcname: mypy
   binnames:
@@ -17,10 +17,49 @@
 - repo: homebrew
   srcname: mypy
   visiblename: mypy
-  version: HEAD
+  version: 2.4.1
   origversion: null
-  status: rolling
+  status: newest
   summary: Experimental optional static type checker for Python
+- repo: pkgsrc_2026_2
+  srcname: lang/py-mypy
+  binname: py313-mypy
+  visiblename: lang/py-mypy
+  version: 2.1.0
+  origversion: null
+  status: outdated
+  summary: Optional static typing for Python
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - lang
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: mypy
+  binnames:
+    - mypy
+    - mypy-doc
+    - python3-mypy
+  visiblename: mypy
+  version: "0.560"
+  origversion: 0.560-1
+  status: outdated
+  maintainers:
+    - debian-med-packaging@lists.alioth.debian.org
+    - michael.crusoe@gmail.com
+  categories:
+    - universe/misc
+- repo: msys2_mingw
+  subrepo: x86_64
+  srcname: mingw-w64-mypy
+  binname: mingw-w64-x86_64-mypy
+  visiblename: mingw-w64-x86_64-mypy
+  version: 2.4.1
+  origversion: 2.4.1-1
+  status: newest
+  summary: Optional static typing for Python 3 (PEP484) (mingw-w64)
+  licenses:
+    - spdx:MIT
 - repo: aerynos
   srcname: python-mypy
   visiblename: python-mypy
@@ -134,19 +173,6 @@
     - alpine@ptrcnull.me
   licenses:
     - MIT
-- repo: nix_stable_24_11
-  srcname: python311Packages.mypy
-  visiblename: python3.11-mypy
-  version: 1.11.2
-  origversion: null
-  status: outdated
-  summary: Optional static typing for Python
-  maintainers:
-    - daiderd@gmail.com
-  licenses:
-    - MIT
-  categories:
-    - python311Packages
 - repo: alpine_3_21
   subrepo: community
   srcname: py3-mypy
@@ -280,22 +306,6 @@
     - MIT
   categories:
     - Development/Python3
-- repo: debian_13
-  subrepo: trixie/main
-  srcname: mypy
-  binnames:
-    - mypy
-    - mypy-doc
-    - python3-mypy
-  visiblename: mypy
-  version: 1.15.0
-  origversion: 1.15.0-5
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - crusoe@debian.org
-  categories:
-    - misc
 - repo: altsisyphus
   srcname: python3-module-mypy
   binnames:
@@ -483,6 +493,22 @@
   visiblename: mypy
   version: 1.0.1
   origversion: 1.0.1-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - crusoe@debian.org
+  categories:
+    - misc
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: mypy
+  binnames:
+    - mypy
+    - mypy-doc
+    - python3-mypy
+  visiblename: mypy
+  version: 1.15.0
+  origversion: 1.15.0-5
   status: outdated
   maintainers:
     - team+python@tracker.debian.org
@@ -915,26 +941,10 @@
 - repo: homebrew
   srcname: mypy
   visiblename: mypy
-  version: 2.4.1
+  version: HEAD
   origversion: null
-  status: newest
+  status: rolling
   summary: Experimental optional static type checker for Python
-- repo: kali_rolling
-  subrepo: main
-  srcname: mypy
-  binnames:
-    - mypy
-    - mypy-doc
-    - python3-mypy
-  visiblename: mypy
-  version: 2.4.1
-  origversion: 2.4.1-1
-  status: newest
-  maintainers:
-    - team+python@tracker.debian.org
-    - crusoe@debian.org
-  categories:
-    - misc
 - repo: liguros_stable
   srcname: dev-python/mypy
   visiblename: dev-python/mypy
@@ -987,22 +997,6 @@
     - MIT
   categories:
     - dev-python
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: mypy
-  binnames:
-    - mypy
-    - mypy-doc
-    - python3-mypy
-  visiblename: mypy
-  version: 1.0.1
-  origversion: 1.0.1-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - crusoe@debian.org
-  categories:
-    - misc
 - repo: liguros_develop
   srcname: dev-python/mypy
   visiblename: dev-python/mypy
@@ -1087,21 +1081,6 @@
     - python
 - repo: macports
   srcname: python/py-mypy
-  binname: py311-mypy
-  visiblename: py311-mypy
-  version: 2.4.1
-  origversion: null
-  status: newest
-  summary: Optional static typing for Python
-  maintainers:
-    - toby@macports
-    - tobypeterson@github
-  licenses:
-    - MIT
-  categories:
-    - python
-- repo: macports
-  srcname: python/py-mypy
   binname: py312-mypy
   visiblename: py312-mypy
   version: 2.4.1
@@ -1119,6 +1098,21 @@
   srcname: python/py-mypy
   binname: py313-mypy
   visiblename: py313-mypy
+  version: 2.4.1
+  origversion: null
+  status: newest
+  summary: Optional static typing for Python
+  maintainers:
+    - toby@macports
+    - tobypeterson@github
+  licenses:
+    - MIT
+  categories:
+    - python
+- repo: macports
+  srcname: python/py-mypy
+  binname: py311-mypy
+  visiblename: py311-mypy
   version: 2.4.1
   origversion: null
   status: newest
@@ -1241,17 +1235,6 @@
   summary: Optional static typing for Python 3 (PEP484) (mingw-w64)
   licenses:
     - spdx:MIT
-- repo: msys2_mingw
-  subrepo: x86_64
-  srcname: mingw-w64-mypy
-  binname: mingw-w64-x86_64-mypy
-  visiblename: mingw-w64-x86_64-mypy
-  version: 2.4.1
-  origversion: 2.4.1-1
-  status: newest
-  summary: Optional static typing for Python 3 (PEP484) (mingw-w64)
-  licenses:
-    - spdx:MIT
 - repo: msys2_ucrt64
   srcname: mingw-w64-mypy
   binname: mingw-w64-ucrt-x86_64-mypy
@@ -1262,17 +1245,6 @@
   summary: Optional static typing for Python 3 (PEP484) (mingw-w64)
   licenses:
     - spdx:MIT
-- repo: nix_stable_24_05
-  srcname: mypy
-  visiblename: mypy
-  version: 1.9.0
-  origversion: null
-  status: outdated
-  summary: Optional static typing for Python
-  maintainers:
-    - daiderd@gmail.com
-  licenses:
-    - MIT
 - repo: nix_stable_24_05
   srcname: python312Packages.mypy
   visiblename: python3.12-mypy
@@ -1299,10 +1271,10 @@
     - MIT
   categories:
     - python311Packages
-- repo: nix_stable_24_11
+- repo: nix_stable_24_05
   srcname: mypy
   visiblename: mypy
-  version: 1.11.2
+  version: 1.9.0
   origversion: null
   status: outdated
   summary: Optional static typing for Python
@@ -1323,6 +1295,30 @@
     - MIT
   categories:
     - python312Packages
+- repo: nix_stable_24_11
+  srcname: python311Packages.mypy
+  visiblename: python3.11-mypy
+  version: 1.11.2
+  origversion: null
+  status: outdated
+  summary: Optional static typing for Python
+  maintainers:
+    - daiderd@gmail.com
+  licenses:
+    - MIT
+  categories:
+    - python311Packages
+- repo: nix_stable_24_11
+  srcname: mypy
+  visiblename: mypy
+  version: 1.11.2
+  origversion: null
+  status: outdated
+  summary: Optional static typing for Python
+  maintainers:
+    - daiderd@gmail.com
+  licenses:
+    - MIT
 - repo: nix_stable_25_05
   srcname: mypy
   visiblename: mypy
@@ -1398,30 +1394,6 @@
   licenses:
     - MIT
 - repo: nix_stable_26_05
-  srcname: python314Packages.mypy
-  visiblename: mypy
-  version: 1.20.1
-  origversion: null
-  status: outdated
-  summary: Optional static typing for Python
-  maintainers:
-    - daiderd@gmail.com
-  licenses:
-    - MIT
-  categories:
-    - python314Packages
-- repo: nix_stable_26_05
-  srcname: mypy
-  visiblename: mypy
-  version: 1.20.1
-  origversion: null
-  status: outdated
-  summary: Optional static typing for Python
-  maintainers:
-    - daiderd@gmail.com
-  licenses:
-    - MIT
-- repo: nix_stable_26_05
   srcname: python313Packages.mypy
   visiblename: mypy
   version: 1.20.1
@@ -1434,48 +1406,72 @@
     - MIT
   categories:
     - python313Packages
-- repo: nix_unstable
-  srcname: python314Packages.mypy
-  visiblename: mypy
-  version: 2.3.1
-  origversion: null
-  status: outdated
-  summary: Optional static typing for Python
-  maintainers:
-    - brockjamesmorgan@gmail.com
-  licenses:
-    - MIT
-  categories:
-    - python314Packages
-- repo: nix_unstable
-  srcname: python313Packages.mypy
-  visiblename: mypy
-  version: 2.3.1
-  origversion: null
-  status: outdated
-  summary: Optional static typing for Python
-  maintainers:
-    - brockjamesmorgan@gmail.com
-  licenses:
-    - MIT
-  categories:
-    - python313Packages
-- repo: raspbian_stable
-  subrepo: main
+- repo: ubuntu_20_04
+  subrepo: focal/universe
   srcname: mypy
   binnames:
     - mypy
     - mypy-doc
     - python3-mypy
   visiblename: mypy
-  version: 1.15.0
-  origversion: 1.15.0-5
+  version: "0.761"
+  origversion: 0.761-1build1
   status: outdated
   maintainers:
-    - team+python@tracker.debian.org
-    - crusoe@debian.org
+    - debian-med-packaging@lists.alioth.debian.org
+    - michael.crusoe@gmail.com
   categories:
-    - misc
+    - universe/misc
+- repo: nix_stable_26_05
+  srcname: mypy
+  visiblename: mypy
+  version: 1.20.1
+  origversion: null
+  status: outdated
+  summary: Optional static typing for Python
+  maintainers:
+    - daiderd@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_26_05
+  srcname: python314Packages.mypy
+  visiblename: mypy
+  version: 1.20.1
+  origversion: null
+  status: outdated
+  summary: Optional static typing for Python
+  maintainers:
+    - daiderd@gmail.com
+  licenses:
+    - MIT
+  categories:
+    - python314Packages
+- repo: nix_unstable
+  srcname: python314Packages.mypy
+  visiblename: mypy
+  version: 2.3.1
+  origversion: null
+  status: outdated
+  summary: Optional static typing for Python
+  maintainers:
+    - brockjamesmorgan@gmail.com
+  licenses:
+    - MIT
+  categories:
+    - python314Packages
+- repo: nix_unstable
+  srcname: python313Packages.mypy
+  visiblename: mypy
+  version: 2.3.1
+  origversion: null
+  status: outdated
+  summary: Optional static typing for Python
+  maintainers:
+    - brockjamesmorgan@gmail.com
+  licenses:
+    - MIT
+  categories:
+    - python313Packages
 - repo: nix_unstable
   srcname: mypy
   visiblename: mypy
@@ -1752,7 +1748,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: mypy
   binnames:
     - mypy
@@ -1768,7 +1764,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: mypy
   binnames:
     - mypy
@@ -1806,18 +1802,6 @@
     - MIT
   categories:
     - library
-- repo: pkgsrc_2026_2
-  srcname: lang/py-mypy
-  binname: py313-mypy
-  visiblename: lang/py-mypy
-  version: 2.1.0
-  origversion: null
-  status: outdated
-  summary: Optional static typing for Python
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - lang
 - repo: pkgsrc_2026_3
   srcname: lang/py-mypy
   binname: py313-mypy
@@ -1848,22 +1832,6 @@
   version: 1.16.1
   origversion: 1.16.1-1
   status: outdated
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: mypy
-  binnames:
-    - mypy
-    - mypy-doc
-    - python3-mypy
-  visiblename: mypy
-  version: "0.670"
-  origversion: 0.670-2
-  status: outdated
-  maintainers:
-    - debian-med-packaging@lists.alioth.debian.org
-    - michael.crusoe@gmail.com
-  categories:
-    - utils
 - repo: pureos_byzantium
   subrepo: byzantium/main
   srcname: mypy
@@ -1904,6 +1872,54 @@
   origversion: null
   status: newest
   summary: Optional static typing for Python
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: mypy
+  binnames:
+    - mypy
+    - mypy-doc
+    - python3-mypy
+  visiblename: mypy
+  version: 1.0.1
+  origversion: 1.0.1-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - crusoe@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: mypy
+  binnames:
+    - mypy
+    - mypy-doc
+    - python3-mypy
+  visiblename: mypy
+  version: 1.15.0
+  origversion: 1.15.0-5
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - crusoe@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: mypy
+  binnames:
+    - mypy
+    - mypy-doc
+    - python3-mypy
+  visiblename: mypy
+  version: 2.4.1
+  origversion: 2.4.1-1
+  status: newest
+  maintainers:
+    - team+python@tracker.debian.org
+    - crusoe@debian.org
+  categories:
+    - misc
 - repo: ravenports
   srcname: python-mypy
   binname: python-mypy
@@ -1996,38 +2012,6 @@
     - adamjstewart@spack
   licenses:
     - MIT AND PSF-2.0
-- repo: ubuntu_18_04
-  subrepo: bionic/universe
-  srcname: mypy
-  binnames:
-    - mypy
-    - mypy-doc
-    - python3-mypy
-  visiblename: mypy
-  version: "0.560"
-  origversion: 0.560-1
-  status: outdated
-  maintainers:
-    - debian-med-packaging@lists.alioth.debian.org
-    - michael.crusoe@gmail.com
-  categories:
-    - universe/misc
-- repo: ubuntu_20_04
-  subrepo: focal/universe
-  srcname: mypy
-  binnames:
-    - mypy
-    - mypy-doc
-    - python3-mypy
-  visiblename: mypy
-  version: "0.761"
-  origversion: 0.761-1build1
-  status: outdated
-  maintainers:
-    - debian-med-packaging@lists.alioth.debian.org
-    - michael.crusoe@gmail.com
-  categories:
-    - universe/misc
 - repo: ubuntu_22_04
   subrepo: jammy-updates/universe
   srcname: mypy
