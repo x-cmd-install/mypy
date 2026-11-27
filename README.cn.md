@@ -14,15 +14,25 @@ x install mypy
 
 ## 代码洞察
 
-合计: **201,350** 行代码（覆盖前 5 种语言、共 **653** 个文件）。
+合计: **201,519** 行代码（覆盖前 5 种语言、共 **653** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Python | 153,016 | 15,592 | 22,565 | 450 |
+| Python | 153,188 | 15,603 | 22,572 | 450 |
 | C | 17,676 | 2,358 | 2,135 | 94 |
-| ReStructuredText | 14,309 | 0 | 6,197 | 63 |
+| ReStructuredText | 14,306 | 0 | 6,196 | 63 |
 | CHeader | 8,597 | 1,349 | 1,347 | 35 |
 | Cpp | 6,425 | 2,225 | 1,277 | 11 |
+
+## OpenSSF Scorecard 评分
+
+总评分: **6.8 / 10**
+
+评分最低的几项:
+
+- **Security-Policy** (4/10) — security policy file detected
+- **Packaging** (-1/10) — packaging workflow not detected
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## 源代码
 
@@ -32,41 +42,22 @@ x install mypy
 
 ## 流行度
 
-- **Star**: 20,737 · **Fork**: 3,496 · **开放 issue**: 12,271 · **贡献者**: 826
+- **Star**: 20,740 · **Fork**: 3,509 · **开放 issue**: 12,273 · **贡献者**: 826
 
 ## 累计统计
 
-- **发布数**: 0 · **已合并 PR**: 8192 · **开放 PR**: 550 · **已关闭 issue**: 9564 · **开放 issue**: 2707 · **提交数**: 14061
+- **发布数**: 0 · **已合并 PR**: 8195 · **开放 PR**: 560 · **已关闭 issue**: 9564 · **开放 issue**: 2709 · **提交数**: 14064
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 0 | 94 | 45 | 8 | 37 | 96 |
-| last60d | 2026-09-27 | 0 | 220 | 79 | 23 | 75 | 212 |
-| 90d | 2026-08-28 | 0 | 292 | 109 | 42 | 90 | 299 |
-| last180d | 2026-05-30 | 0 | 400 | 153 | 89 | 151 | 431 |
-| 360d | 2025-12-01 | 0 | 975 | 235 | 321 | 300 | 1076 |
-| last720d | 2024-12-06 | 0 | 1862 | 392 | 888 | 626 | 1889 |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/mypy) 上共有 **162** 个发行版报告此项目。**29** 个 ✅ 已是最新上游版本，**116** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `2.4.1` | ✅ latest |
-| Debian 14 | `2.4.1` | ✅ latest |
-| Debian 13 | `1.15.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.19.1` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.9.0` | ⚠️ outdated |
-| Arch | `2.4.0` | ⚠️ outdated |
-| Homebrew | `2.4.1` | ✅ latest |
-| Fedora rawhide | `1.18.2` | ⚠️ outdated |
-| Nix unstable | `2.3.1` | ⚠️ outdated |
-| Void | `2.1.0` | ⚠️ outdated |
-| Alpine edge | `2.4.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `2.4.0` | ⚠️ outdated |
+| 30d | 2026-10-28 | 0 | 96 | 54 | 8 | 38 | 99 |
+| last60d | 2026-09-28 | 0 | 221 | 87 | 23 | 76 | 215 |
+| 90d | 2026-08-29 | 0 | 293 | 118 | 42 | 91 | 302 |
+| last180d | 2026-05-31 | 0 | 401 | 163 | 89 | 153 | 434 |
+| 360d | 2025-12-02 | 0 | 974 | 245 | 319 | 300 | 1079 |
+| last720d | 2024-12-07 | 0 | 1861 | 401 | 888 | 628 | 1888 |
 
 ## 改进这些数据
 
@@ -77,4 +68,4 @@ mypy 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261126.yml` · 2026-11-26T08:27:39Z._
+_数据快照: `data/card/261127.yml` · 2026-11-27T08:50:12Z._

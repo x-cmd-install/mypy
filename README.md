@@ -14,15 +14,25 @@ x install mypy
 
 ## Code insight
 
-Total: **201,350** lines of code across **653** files in the top 5 languages.
+Total: **201,519** lines of code across **653** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 153,016 | 15,592 | 22,565 | 450 |
+| Python | 153,188 | 15,603 | 22,572 | 450 |
 | C | 17,676 | 2,358 | 2,135 | 94 |
-| ReStructuredText | 14,309 | 0 | 6,197 | 63 |
+| ReStructuredText | 14,306 | 0 | 6,196 | 63 |
 | CHeader | 8,597 | 1,349 | 1,347 | 35 |
 | Cpp | 6,425 | 2,225 | 1,277 | 11 |
+
+## OpenSSF Scorecard
+
+Overall score: **6.8 / 10**
+
+Lowest-scoring checks:
+
+- **Security-Policy** (4/10) — security policy file detected
+- **Packaging** (-1/10) — packaging workflow not detected
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## Source
 
@@ -32,41 +42,22 @@ Total: **201,350** lines of code across **653** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 20,737 · **Forks**: 3,496 · **Open issues**: 12,271 · **Contributors**: 826
+- **Stars**: 20,740 · **Forks**: 3,509 · **Open issues**: 12,273 · **Contributors**: 826
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 8192 · **Open PRs**: 550 · **Closed issues**: 9564 · **Open issues**: 2707 · **Commits**: 14061
+- **Releases**: 0 · **Merged PRs**: 8195 · **Open PRs**: 560 · **Closed issues**: 9564 · **Open issues**: 2709 · **Commits**: 14064
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 0 | 94 | 45 | 8 | 37 | 96 |
-| last60d | 2026-09-27 | 0 | 220 | 79 | 23 | 75 | 212 |
-| 90d | 2026-08-28 | 0 | 292 | 109 | 42 | 90 | 299 |
-| last180d | 2026-05-30 | 0 | 400 | 153 | 89 | 151 | 431 |
-| 360d | 2025-12-01 | 0 | 975 | 235 | 321 | 300 | 1076 |
-| last720d | 2024-12-06 | 0 | 1862 | 392 | 888 | 626 | 1889 |
-
-## Distribution status
-
-Reported by **162** distros on [repology.org](https://repology.org/project/mypy). **29** are ✅ on the latest upstream release, **116** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `2.4.1` | ✅ latest |
-| Debian 14 | `2.4.1` | ✅ latest |
-| Debian 13 | `1.15.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.19.1` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.9.0` | ⚠️ outdated |
-| Arch | `2.4.0` | ⚠️ outdated |
-| Homebrew | `2.4.1` | ✅ latest |
-| Fedora rawhide | `1.18.2` | ⚠️ outdated |
-| Nix unstable | `2.3.1` | ⚠️ outdated |
-| Void | `2.1.0` | ⚠️ outdated |
-| Alpine edge | `2.4.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `2.4.0` | ⚠️ outdated |
+| 30d | 2026-10-28 | 0 | 96 | 54 | 8 | 38 | 99 |
+| last60d | 2026-09-28 | 0 | 221 | 87 | 23 | 76 | 215 |
+| 90d | 2026-08-29 | 0 | 293 | 118 | 42 | 91 | 302 |
+| last180d | 2026-05-31 | 0 | 401 | 163 | 89 | 153 | 434 |
+| 360d | 2025-12-02 | 0 | 974 | 245 | 319 | 300 | 1079 |
+| last720d | 2024-12-07 | 0 | 1861 | 401 | 888 | 628 | 1888 |
 
 ## Improve this data
 
@@ -77,4 +68,4 @@ Install metadata for mypy lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T08:27:38Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T08:50:11Z._
